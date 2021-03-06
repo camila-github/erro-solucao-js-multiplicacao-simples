@@ -1,12 +1,17 @@
 //SOLUCAO 1
+const valorUm = gets();
+const valorDois = gets();
+const totalDaMultiplicacao = valorUm * valorDois;
+console.log("PROD = " + totalDaMultiplicacao);
+
+//SOLUCAO 2
 var valor1 = gets();
 var valor2 = gets();
-var total = valor1 * valor2;
-console.log("PROD = " + total);
+console.log("PROD = " + (valor1 * valor2));
 
-//SOLUCAO 2 - Resumido
+//SOLUCAO 3 - Resumido
 var total = gets() * gets();
 console.log("PROD = " + total);
 
-//SOLUCAO 3 - Resumido 
+//SOLUCAO 4 - Resumido 
 console.log("PROD = " + (gets() * gets()));

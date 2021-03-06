@@ -1,7 +1,8 @@
-## Treinamento Digital Innovation One - Exercicio - Multiplicação Simples
+## Exercicio: Multiplicação Simples
 
 O exercicio publicado é referente ao treinamento do BOOTCAMP - Desenvolvedor NodeJS - Introdução a Programação Com Java Script 
 (https://digitalinnovation.one)
+
 
 #### Descrição do Desafio:
 
@@ -33,21 +34,33 @@ Exemplos de Entrada  | Exemplos de Saída
 9  |  
 
 
+#### Update:
+06-03-2021 - Utilizando variaveis constantes (const) e ajustado nomenclatura das constantes (Uso de conceitos CleanCode)
+
 
 #### Javascript　
 
 ```javascript
 //SOLUCAO 1
-var valor1 = gets(); //leitura da primeira entrada e armazena na variavel
-var valor2 = gets(); //leitura da segunda entrada entrada e armazena na variavel
-var total = valor1 * valor2; //realiza o calculo e armazena na variavel
-console.log("PROD = " + total); //mostra o total no console
+/* Utilizando variaveis constantes (const) 
+e ajustado nomenclatura das constantes (Uso de conceitos CleanCode) */ 
+const valorUm = gets();
+const valorDois = gets();
+const totalDaMultiplicacao = valorUm * valorDois;
+console.log("PROD = " + totalDaMultiplicacao);
 
-//SOLUCAO 2 - Resumido
-var total = gets() * gets(); //faz a leitura das duas entradas, calcula e armazena na variavel
-console.log("PROD = " + total); //mostra o total no console
+//SOLUCAO 2
+var valor1 = gets();
+var valor2 = gets();
+console.log("PROD = " + (valor1 * valor2));
 
-//SOLUCAO 3 - Resumido 
-console.log("PROD = " + (gets() * gets())); //faz a leitura das duas entradas, calcula e mostra o total no console
+
+//SOLUCAO 3 - Resumido
+var total = gets() * gets();
+console.log("PROD = " + total);
+
+//SOLUCAO 4 - Resumido 
+/*Faz a leitura das duas entradas (gets()), calcula e mostra o total no console.*/
+console.log("PROD = " + (gets() * gets()));
 ```
 
