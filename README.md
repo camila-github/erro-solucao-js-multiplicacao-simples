@@ -1,7 +1,7 @@
 ## Exercicio: Multiplicação Simples
 
 O exercicio publicado é referente ao treinamento do BOOTCAMP - Desenvolvedor NodeJS - Introdução a Programação Com Java Script 
-(https://digitalinnovation.one)
+[https://digitalinnovation.one](https://digitalinnovation.one)
 
 
 #### Descrição do Desafio:
